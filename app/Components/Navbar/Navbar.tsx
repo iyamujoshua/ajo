@@ -57,7 +57,7 @@ function Navbar() {
 
           {/* CTA Button - Desktop */}
           <div className="hidden md:block">
-            <button className="bg-[#CBEB6D] hover:bg-green-400 text-gray-800 px-4 py-3 rounded-[8] flex items-center gap-2 transition">
+            <button className="bg-[#CBEB6D] hover:bg-[#024E44] text-gray-800 px-4 py-3 rounded-[8] flex items-center gap-2 transition">
               Get Ajo App
               <Image
                 src="/resource/arrow-right.svg"
@@ -109,7 +109,7 @@ function Navbar() {
               >
                 Blog
               </a>
-              <button className="bg-[#CBEB6D] hover:bg-green-400 text-gray-800 px-6 py-2 rounded-full flex items-center justify-center gap-2 transition mt-2">
+              <button className="bg-[#CBEB6D] hover:bg-[#024E44] text-gray-800 px-6 py-2 rounded-full flex items-center justify-center gap-2 transition mt-2">
                 Get Ajo App
                 <Image
                   src="/resource/arrow-right.svg"

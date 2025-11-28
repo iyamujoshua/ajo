@@ -3,6 +3,7 @@ import { Users, Star } from "lucide-react";
 import { AnimatePresence, motion, useInView } from "motion/react";
 import Image from "next/image";
 import { GradualSpacing } from "../Headinganimate";
+import BrandSection from "../brandcomponents";
 function Hero() {
   return (
     <section className="bg-white py-12 px-4 sm:py-16 md:py-20 lg:py-24">
@@ -30,7 +31,7 @@ function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
-            <button className="bg-[#CBEB6D] hover:bg-green-400 text-gray-900 px-6 sm:px-8 py-3 sm:py-3.5 rounded-[8] flex items-center gap-2 transition font-medium text-base sm:text-lg w-full sm:w-auto justify-center">
+            <button className="bg-[#CBEB6D] hover:bg-[#024E44] text-gray-900 px-6 sm:px-8 py-3 sm:py-3.5 rounded-[8] flex items-center gap-2 transition font-medium text-base sm:text-lg w-full sm:w-auto justify-center">
               Get Ajo App
               <Image
                 src="/resource/arrow-right.svg"
@@ -39,7 +40,7 @@ function Hero() {
                 alt="arrow-right"
               />
             </button>
-            <button className="text-[#045044] hover:text-teal-800 font-medium text-base sm:text-lg transition">
+            <button className="text-[#045044] hover:text-[#024E44] font-medium text-base sm:text-lg transition">
               Learn More
             </button>
           </div>
@@ -97,6 +98,9 @@ function Hero() {
             </div>
           </div>
         </div>
+
+        <BrandSection />
+
       </div>
     </section>
   );
