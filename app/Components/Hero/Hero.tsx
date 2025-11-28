@@ -2,18 +2,17 @@ import React from "react";
 import { Users, Star } from "lucide-react";
 import { AnimatePresence, motion, useInView } from "motion/react";
 import Image from "next/image";
+import { GradualSpacing } from "../Headinganimate";
 function Hero() {
-  // const ref = React.useRef(null);
-  // const isInView = useInView(ref, { once: true });
   return (
     <section className="bg-white py-12 px-4 sm:py-16 md:py-20 lg:py-24">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12 sm:mb-16 lg:mb-20">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 sm:mb-8">
-            Bringing the spirit of{" "}
+            {/* Bringing the spirit of{" "} */}
+            <GradualSpacing text="Bringing the spirit of" />
             <span className="relative inline-block">
               Ajo
-              {/* className="absolute -bottom-2 left-0 w-full" */}
               <Image
                 src="/resource/ajoline.svg"
                 width={137}
