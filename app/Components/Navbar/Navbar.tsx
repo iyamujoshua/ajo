@@ -1,7 +1,7 @@
-'use client';
-import React, { useState } from 'react';
-import { Menu, X } from 'lucide-react';
-import Image from 'next/image';
+"use client";
+import React, { useState } from "react";
+import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,12 +16,12 @@ function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-green-800 rounded-full flex items-center justify-center">
-              <Image 
-              src="/resource/ajologo.png"
-              height={44}
-              width={44}
-              alt='logo'
+            <div className="flex items-center justify-center">
+              <Image
+                src="/resource/ajologo.png"
+                height={44}
+                width={44}
+                alt="logo"
               />
             </div>
             <span className="text-[#CBEB6D] text-2xl font-bold">Ajo</span>
@@ -29,30 +29,42 @@ function Navbar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            <a href="#about" className="text-gray-700 hover:text-gray-900 transition">
+            <a
+              href="#about"
+              className="text-gray-700 hover:text-gray-900 transition"
+            >
               About
             </a>
-            <a href="#pricing" className="text-gray-700 hover:text-gray-900 transition">
+            <a
+              href="#pricing"
+              className="text-gray-700 hover:text-gray-900 transition"
+            >
               Pricing
             </a>
-            <a href="#contact" className="text-gray-700 hover:text-gray-900 transition">
+            <a
+              href="#contact"
+              className="text-gray-700 hover:text-gray-900 transition"
+            >
               Contact
             </a>
-            <a href="#blog" className="text-gray-700 hover:text-gray-900 transition">
+            <a
+              href="#blog"
+              className="text-gray-700 hover:text-gray-900 transition"
+            >
               Blog
             </a>
           </div>
 
           {/* CTA Button - Desktop */}
           <div className="hidden md:block">
-            <button className="bg-[#CBEB6D] hover:bg-green-400 text-gray-800 px-4 py-2 rounded-[8] flex items-center gap-2 transition">
+            <button className="bg-[#CBEB6D] hover:bg-green-400 text-gray-800 px-4 py-3 rounded-[8] flex items-center gap-2 transition">
               Get Ajo App
-              <Image 
+              <Image
                 src="/resource/arrow-right.svg"
                 height={24}
                 width={24}
-                alt='arrow-right'
-                />
+                alt="arrow-right"
+              />
             </button>
           </div>
 
@@ -97,13 +109,13 @@ function Navbar() {
               >
                 Blog
               </a>
-              <button className="bg-green-300 hover:bg-green-400 text-gray-800 px-6 py-2 rounded-full flex items-center justify-center gap-2 transition mt-2">
+              <button className="bg-[#CBEB6D] hover:bg-green-400 text-gray-800 px-6 py-2 rounded-full flex items-center justify-center gap-2 transition mt-2">
                 Get Ajo App
-                <Image 
-                src="/resource/arrow-right.svg"
-                height={24}
-                width={24}
-                alt='arrow-right'
+                <Image
+                  src="/resource/arrow-right.svg"
+                  height={24}
+                  width={24}
+                  alt="arrow-right"
                 />
               </button>
             </div>
