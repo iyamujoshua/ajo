@@ -1,5 +1,4 @@
 import React from 'react';
-import { LayoutGrid, MessageSquare, CreditCard, Wallet, CircleDollarSign } from 'lucide-react';
 import Image from 'next/image';
 export default function Howitworks() {
   const steps = [
