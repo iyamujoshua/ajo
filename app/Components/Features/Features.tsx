@@ -8,7 +8,7 @@ function Features() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12 sm:mb-16 lg:mb-20">
-          <p className="text-[#024E44] text-sm sm:text-base font-medium mb-3">
+          <p className="bg-white text-emerald-900 px-4 py-1.5 rounded-full text-sm font-medium mb-6 shadow-sm inline-flex">
             Features Of Ajo
           </p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#03413F]">
