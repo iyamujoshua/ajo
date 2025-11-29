@@ -3,6 +3,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Features from "./Components/Features/Features";
 import HowItWorks from "./Components/Howitworks/Howitworks";
 import Whychoseus from "./Components/Whychoseus/Whychoseus";
+import Testimonies from "./Components/Testimonies/Testimonies";
 export default function Home() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function Home() {
       <Features />
       <HowItWorks />
       <Whychoseus />
+      <Testimonies />
     </>
   );
 }
