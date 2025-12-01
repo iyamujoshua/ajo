@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 
-
-const Image = (props) => {
+// Add type annotation for props
+const Image = (props: React.ImgHTMLAttributes<HTMLImageElement>) => {
   return <img {...props} loading="lazy" />;
 };
 
@@ -53,7 +53,7 @@ export default function Footer() {
                 <Image 
                   src="/resource/instagram-fill.svg" 
                   alt="Instagram"
-                    height={24}
+                  height={24}
                   width={24}
                 />
               </button>
