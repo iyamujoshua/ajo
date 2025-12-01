@@ -71,7 +71,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold text-[#131735] mb-4">
               Subscribe For Future Updates
             </h3>
-            <div className="flex flex-col sm:flex-row gap-2 sm:items-center sm:bg-white sm:rounded-full sm:p-1.5 sm:shadow-sm max-w-full border border-gray-100 sm:border-none rounded-lg bg-white p-2">
+            <div className="flex flex-col sm:flex-row gap-2 sm:items-center sm:bg-white border-1 border-[#E5E5E5] sm:rounded-full sm:p-1.5 sm:shadow-sm max-w-full border border-gray-100 sm:border-none rounded-lg bg-white p-2">
               <input
                 type="email"
                 placeholder="Enter your Email"
