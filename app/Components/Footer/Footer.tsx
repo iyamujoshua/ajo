@@ -1,6 +1,6 @@
+"use client";
 import React from "react";
-// Remove the lucide-react imports since we're using custom icons
-// import { Twitter, Instagram, Linkedin } from "lucide-react";
+
 
 const Image = (props) => {
   return <img {...props} loading="lazy" />;
@@ -39,30 +39,33 @@ export default function Footer() {
                 aria-label="Twitter"
                 className="w-10 h-10 bg-white rounded-full border-1 border-[#E5E5E5] flex items-center justify-center hover:bg-gray-100 transition"
               >
-                <img 
+                <Image
                   src="/resource/twitter.svg" 
                   alt="Twitter"
-                  className="w-5 h-5"
+                  height={24}
+                  width={24}
                 />
               </button>
               <button
                 aria-label="Instagram"
                 className="w-10 h-10 bg-white rounded-full border-1 border-[#E5E5E5] flex items-center justify-center hover:bg-gray-100 transition"
               >
-                <img 
+                <Image 
                   src="/resource/instagram-fill.svg" 
                   alt="Instagram"
-                  className="w-5 h-5"
+                    height={24}
+                  width={24}
                 />
               </button>
               <button
                 aria-label="LinkedIn"
                 className="w-10 h-10 bg-white rounded-full border-1 border-[#E5E5E5] flex items-center justify-center hover:bg-gray-100 transition"
               >
-                <img 
+                <Image
                   src="/resource/linkedin.svg" 
                   alt="LinkedIn"
-                  className="w-5 h-5"
+                  height={24}
+                  width={24}
                 />
               </button>
             </div>

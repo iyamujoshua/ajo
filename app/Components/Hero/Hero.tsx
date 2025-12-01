@@ -51,18 +51,21 @@ function Hero() {
             {/* Left column - cards */}
             <div className="space-y-6 lg:space-y-8">
               <div className="max-w-sm mx-auto md:mx-0 md:ml-auto">
-                <img
+                <Image
                   src="/resource/active-circle.svg"
                   alt="100+ Active Circles"
-                  className="w-full h-auto"
+                  height={94}
+                  width={242}
                 />
               </div>
 
               <div className="max-w-sm mx-auto md:mx-0 md:ml-auto">
-                <img
+                <Image
                   src="/resource/future.svg"
                   alt="The Future of Rotational Savings"
-                  className="w-full h-auto"
+                  width={273.86}
+                  height={93.41}
+                 
                 />
               </div>
             </div>
@@ -70,10 +73,11 @@ function Hero() {
             {/* Center column - hand image */}
             <div className="flex items-center justify-center py-8 md:py-0">
               <div className="relative w-80 lg:w-96 xl:w-108">
-                <img
+                <Image
                   src="/resource/Ajohand.svg"
                   alt="Ajo App on Phone"
-                  className="w-full h-auto drop-shadow-2xl"
+                  width={540}
+                  height={715.08}
                 />
               </div>
             </div>
@@ -81,18 +85,20 @@ function Hero() {
             {/* Right column - cards */}
             <div className="space-y-6 lg:space-y-8 md:mt-12 lg:mt-16">
               <div className="max-w-sm mx-auto md:mx-0 md:mr-auto">
-                <img
+                <Image
                   src="/resource/200happyusers.svg"
                   alt="200+ Happy Users"
-                  className="w-full h-auto"
+                  width={389.66}
+                  height={97.4}
                 />
               </div>
 
               <div className="max-w-sm mx-auto md:mx-0 md:mr-auto">
-                <img
+                <Image
                   src="/resource/fastSecure.svg"
                   alt="Fast, Secure, Automated Payouts"
-                  className="w-full h-auto"
+                  width={278}
+                  height={100}
                 />
               </div>
             </div>
