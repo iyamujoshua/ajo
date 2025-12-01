@@ -40,7 +40,7 @@ export default function Footer() {
                 className="w-10 h-10 bg-white rounded-full border-1 border-[#E5E5E5] flex items-center justify-center hover:bg-gray-100 transition"
               >
                 <Image
-                  src="/resource/twitter.svg" 
+                  src="/resource/Twitter.svg" 
                   alt="Twitter"
                   height={24}
                   width={24}
